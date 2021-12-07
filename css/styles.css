@@ -642,6 +642,7 @@ h6 {
 .footer-main {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .conteiner-footer-inform {
@@ -688,7 +689,6 @@ h6 {
   display: block;
   padding: 0;
   margin: 0;
-  margin-left: 70px;
 }
 
 .title-social-links {
@@ -742,7 +742,7 @@ h6 {
   fill: #fff;
 }
 .conteiner-footer-proposition {
-  margin-left: auto;
+  display: block;
 }
 .footer-form {
   display: flex;
@@ -993,6 +993,7 @@ h6 {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
+  margin-top: 0;
 
   color: var(--second-title-color);
 }
@@ -1005,6 +1006,7 @@ h6 {
 
   padding-left: 42px;
   padding-right: 12px;
+  margin: 0;
   color: var(--main-text-color);
   font-weight: 600;
   cursor: pointer;
@@ -1029,8 +1031,10 @@ h6 {
   margin-bottom: 4px;
 }
 .modal-field {
+  display: block;
   margin-bottom: 10px;
 }
+
 .input-wrap {
   position: relative;
 }
@@ -1067,12 +1071,21 @@ h6 {
   transform: translateY(-50%);
   transition: fill 250ms var(--timing-function);
 }
+
+.check-row {
+  display: inline-block;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .check-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   display: flex;
+  align-items: center;
 
   color: var(--main-text-color);
 }
